@@ -1,0 +1,50 @@
+.navbar-nav {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.nav-link{
+    color:rgba(15, 15, 15, 0.7);
+}
+.navbar{
+    margin-bottom: 0;
+    border-radius:0;
+}
+body{
+   color:gainsboro;
+}
+
+.jumbotron{
+    font-size:36px;
+    font-weight: 20rem;
+    color:#fff !important;
+    text-align: center;
+    border-radius:0;
+    background-image: url("bike.jpg");
+    background-size:cover;
+    text-transform: uppercase !important;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    height:600px;
+}
+
+.jumbotron p{
+    font-size: 1rem;
+    /* margin-top: 6rem; */
+}
+
+.jumbotron h1{
+    padding-top:2rem;
+    margin-top: 6rem;
+    margin-bottom: 0;
+}
+
+.my-4 hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav-item{
+    padding-left: 1.3rem;
+ 
+}
