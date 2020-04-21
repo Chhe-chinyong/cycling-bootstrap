@@ -16,6 +16,10 @@ body{
    color:gainsboro;
 }
 
+.navbar-brand{
+    background-image: url('../image/Screen\ Shot\ 2020-04-21\ at\ 8.34.08\ PM.png');
+}
+
 .jumbotron{
     font-size:36px;
     font-weight: 20rem;
@@ -23,6 +27,8 @@ body{
     text-align: center;
     border-radius:0;
     background-image: url("../image/bike.jpg"); 
+    max-width: 100%; 
+    height: auto;
     background-size:cover;
     text-transform: uppercase !important;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
