@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "home.html"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Chhe-chinyong/cycling-bootstrap/issues"
   },
-  "homepage": "https://github.com/Chhe-chinyong/cycling-bootstrap#readme"
+  "homepage": "https://github.com/Chhe-chinyong/cycling-bootstrap#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-static": "^0.7.11",
+    "path": "^0.12.7"
+  }
 }
