@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // app.get('/',(req,res)=>{
 //     res.render('/Users/chinyongchhe/Documents/Project/hello-world/public/index.html')
 // })
-
-app.listen(3000, (req, res) => {
+var port = Number(process.env.PORT || 3000);
+app.listen(port, (req, res) => {
     console.log('running');
 })
