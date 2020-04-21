@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.get('/',(req,res)=>{
-    res.send("hello world");
+    res.render('/Users/chinyongchhe/Documents/Project/hello-world/public/index.html')
 })
 
 app.listen(3000, (req, res) => {
