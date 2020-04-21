@@ -9,6 +9,10 @@ app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
+app.get('/',(req,res)=>{
+    res.send("hello world");
+})
+
 app.listen(3000, (req, res) => {
     console.log('running');
 })
