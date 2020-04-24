@@ -2,6 +2,12 @@
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     font-size: 0.9rem;
+   
+}
+.header{
+    top: 0;
+    position: sticky;
+    z-index: 1030;
 }
 
 .nav-link{
@@ -10,45 +16,59 @@
 .navbar{
     margin-bottom: 0;
     border-radius:0;
+    position: fixed;
+    width: 100%;
+   
 }
 
 body{
    color:gainsboro;
 }
 
-.navbar-brand{
+.navbar-brand a{
+    padding:0;
     background-image: url('../image/Screen\ Shot\ 2020-04-21\ at\ 8.34.08\ PM.png');
 }
 
-.jumbotron{
+/* .jumbotron-custome{
     font-size:36px;
     font-weight: 20rem;
     color:#fff !important;
     text-align: center;
     border-radius:0;
-    background-image: url("../image/bike.jpg"); 
     max-width: 100%; 
-    height: auto;
-    background-size:cover;
     text-transform: uppercase !important;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     height:600px;
+} */
+
+.jumbotron1{
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 4rem;
 }
 
-.jumbotron p{
+
+.jumbotron1 p{
     font-size: 1rem;
+
     /* margin-top: 6rem; */
 }
 
-.jumbotron h1{
+.jumbotron1 h1{
     padding-top:2rem;
     margin-top: 6rem;
     margin-bottom: 0;
 }
 
-.my-4 hr{
-    margin-top: 0;
-    margin-bottom: 0;
+.jumbotron1 hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .nav-item{
@@ -58,4 +78,42 @@ body{
 
 .video-cycling{
     text-align: center;
+}
+
+
+.round-pill{
+    border-radius: 50rem!important;
+    letter-spacing: 0.1rem;
+    
+}
+
+.jumbotron1 a{
+    background-color: #00ba94;
+    border-color: #00ba94;
+    font-size: small;
+    font-weight: 700;
+    color:white;
+    z-index: 1000;
+}
+
+
+#carouselExampleIndicators img{
+    height:620px;
+}
+
+
+.carousel-item{
+    text-align: center;
+    vertical-align: middle;
+    text-align:center;
+    /* position: absolute; */
+}
+
+#carouselExampleIndicators{
+    margin-bottom: 1rem;
+}
+
+.video-display{
+    text-align: center;
+    padding-top: 2rem;
 }

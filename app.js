@@ -13,6 +13,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //     res.render('/Users/chinyongchhe/Documents/Project/hello-world/public/index.html')
 // })
 var port = Number(process.env.PORT || 3000);
-app.listen(port, (req, res) => {
+app.listen(port,'0.0.0.0',(req, res) => {
     console.log('running');
 })
