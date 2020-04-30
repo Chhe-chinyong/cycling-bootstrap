@@ -1,0 +1,85 @@
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url("../image/align-justify.svg");
+}
+
+
+.card-header{
+    color: #0061f2;
+    font-weight: 600;
+}
+
+.container{
+    font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    background-color: gray;
+}
+
+.sign-up{
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    background-color: #6900c7!important;
+}
+
+.sign-up h2{
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.sign-up p{
+    font:18.4px;
+    color: hsla(0,0%,100%,.5)!important;
+}
+
+.sec-signup .p{ 
+    text-align: center;
+    margin-top:12rem;
+}
+
+
+label{
+    color:black;
+}
+
+.dob{
+    margin-bottom: 1rem;
+}
+
+.email{
+    margin-bottom:1rem;
+}
+.address{
+    margin-bottom: 1rem;
+}
+
+.phone{
+    margin-bottom: 1rem;
+}
+
+#form{
+    margin-top: 5rem;
+}
+
+#submit{
+    color: #fff;
+    background-color: #0061f2;
+    border-color: #0061f2;
+    opacity: .65;
+    border-radius: 1rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.form-row input{
+    border-radius: .50rem;
+}
+
+#submit:hover{
+    color: #fff;
+    background-color: red;
+    border-color: #0061f2;
+    border-radius: 1rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}

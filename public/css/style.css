@@ -1,4 +1,4 @@
-
+@import url('./register.css');
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 .navbar-nav {
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -271,10 +271,15 @@ blockquote:before {
 }
 
 #sub{
-    background-color: #CC0000;
+    background-color: gray;
     color:white;
+    border-radius:50rem!important;
 }
 
 .row .right{
     float:left;
+}
+
+#sub:hover{
+    background: #CC0000;;
 }
