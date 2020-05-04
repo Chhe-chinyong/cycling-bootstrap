@@ -24,7 +24,6 @@
     "nodemon": "^2.0.3",
     "path": "^0.12.7"
   },
-  
   "devDependencies": {
     "minimist": ">=0.2.1"
   }
