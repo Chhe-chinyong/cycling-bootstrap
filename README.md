@@ -2,7 +2,7 @@
 
 **To start the project:**
 
- 1.  **`npm init`**
+ 1.  **`npm install`**
 
 
 > **RUN :**  
